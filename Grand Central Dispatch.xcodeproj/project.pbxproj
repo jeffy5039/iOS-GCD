@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB99787B1A0658CE00514112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99787A1A0658CE00514112 /* AppDelegate.swift */; };
+		EB99787D1A0658CE00514112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99787C1A0658CE00514112 /* ViewController.swift */; };
+		EB9978801A0658CE00514112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB99787E1A0658CE00514112 /* Main.storyboard */; };
+		EB9978821A0658CE00514112 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9978811A0658CE00514112 /* Images.xcassets */; };
+		EB9978851A0658CE00514112 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9978831A0658CE00514112 /* LaunchScreen.xib */; };
+		EB9978911A0658CE00514112 /* Grand_Central_DispatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9978901A0658CE00514112 /* Grand_Central_DispatchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB99788B1A0658CE00514112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB99786D1A0658CD00514112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9978741A0658CD00514112;
+			remoteInfo = "Grand Central Dispatch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB9978751A0658CD00514112 /* Grand Central Dispatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grand Central Dispatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9978791A0658CD00514112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB99787A1A0658CE00514112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB99787C1A0658CE00514112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB99787F1A0658CE00514112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB9978811A0658CE00514112 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB9978841A0658CE00514112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EB99788A1A0658CE00514112 /* Grand Central DispatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grand Central DispatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB99788F1A0658CE00514112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9978901A0658CE00514112 /* Grand_Central_DispatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grand_Central_DispatchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9978721A0658CD00514112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9978871A0658CE00514112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB99786C1A0658CD00514112 = {
+			isa = PBXGroup;
+			children = (
+				EB9978771A0658CD00514112 /* Grand Central Dispatch */,
+				EB99788D1A0658CE00514112 /* Grand Central DispatchTests */,
+				EB9978761A0658CD00514112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9978761A0658CD00514112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9978751A0658CD00514112 /* Grand Central Dispatch.app */,
+				EB99788A1A0658CE00514112 /* Grand Central DispatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9978771A0658CD00514112 /* Grand Central Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				EB99787A1A0658CE00514112 /* AppDelegate.swift */,
+				EB99787C1A0658CE00514112 /* ViewController.swift */,
+				EB99787E1A0658CE00514112 /* Main.storyboard */,
+				EB9978811A0658CE00514112 /* Images.xcassets */,
+				EB9978831A0658CE00514112 /* LaunchScreen.xib */,
+				EB9978781A0658CD00514112 /* Supporting Files */,
+			);
+			path = "Grand Central Dispatch";
+			sourceTree = "<group>";
+		};
+		EB9978781A0658CD00514112 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9978791A0658CD00514112 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB99788D1A0658CE00514112 /* Grand Central DispatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB9978901A0658CE00514112 /* Grand_Central_DispatchTests.swift */,
+				EB99788E1A0658CE00514112 /* Supporting Files */,
+			);
+			path = "Grand Central DispatchTests";
+			sourceTree = "<group>";
+		};
+		EB99788E1A0658CE00514112 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB99788F1A0658CE00514112 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9978741A0658CD00514112 /* Grand Central Dispatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9978941A0658CE00514112 /* Build configuration list for PBXNativeTarget "Grand Central Dispatch" */;
+			buildPhases = (
+				EB9978711A0658CD00514112 /* Sources */,
+				EB9978721A0658CD00514112 /* Frameworks */,
+				EB9978731A0658CD00514112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grand Central Dispatch";
+			productName = "Grand Central Dispatch";
+			productReference = EB9978751A0658CD00514112 /* Grand Central Dispatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB9978891A0658CE00514112 /* Grand Central DispatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9978971A0658CE00514112 /* Build configuration list for PBXNativeTarget "Grand Central DispatchTests" */;
+			buildPhases = (
+				EB9978861A0658CE00514112 /* Sources */,
+				EB9978871A0658CE00514112 /* Frameworks */,
+				EB9978881A0658CE00514112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB99788C1A0658CE00514112 /* PBXTargetDependency */,
+			);
+			name = "Grand Central DispatchTests";
+			productName = "Grand Central DispatchTests";
+			productReference = EB99788A1A0658CE00514112 /* Grand Central DispatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB99786D1A0658CD00514112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = jordan;
+				TargetAttributes = {
+					EB9978741A0658CD00514112 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EB9978891A0658CE00514112 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EB9978741A0658CD00514112;
+					};
+				};
+			};
+			buildConfigurationList = EB9978701A0658CD00514112 /* Build configuration list for PBXProject "Grand Central Dispatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB99786C1A0658CD00514112;
+			productRefGroup = EB9978761A0658CD00514112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9978741A0658CD00514112 /* Grand Central Dispatch */,
+				EB9978891A0658CE00514112 /* Grand Central DispatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9978731A0658CD00514112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9978801A0658CE00514112 /* Main.storyboard in Resources */,
+				EB9978851A0658CE00514112 /* LaunchScreen.xib in Resources */,
+				EB9978821A0658CE00514112 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9978881A0658CE00514112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9978711A0658CD00514112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB99787D1A0658CE00514112 /* ViewController.swift in Sources */,
+				EB99787B1A0658CE00514112 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9978861A0658CE00514112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9978911A0658CE00514112 /* Grand_Central_DispatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB99788C1A0658CE00514112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9978741A0658CD00514112 /* Grand Central Dispatch */;
+			targetProxy = EB99788B1A0658CE00514112 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB99787E1A0658CE00514112 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB99787F1A0658CE00514112 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB9978831A0658CE00514112 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9978841A0658CE00514112 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB9978921A0658CE00514112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB9978931A0658CE00514112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9978951A0658CE00514112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Grand Central Dispatch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB9978961A0658CE00514112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Grand Central Dispatch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB9978981A0658CE00514112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Grand Central DispatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grand Central Dispatch.app/Grand Central Dispatch";
+			};
+			name = Debug;
+		};
+		EB9978991A0658CE00514112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Grand Central DispatchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grand Central Dispatch.app/Grand Central Dispatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9978701A0658CD00514112 /* Build configuration list for PBXProject "Grand Central Dispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9978921A0658CE00514112 /* Debug */,
+				EB9978931A0658CE00514112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9978941A0658CE00514112 /* Build configuration list for PBXNativeTarget "Grand Central Dispatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9978951A0658CE00514112 /* Debug */,
+				EB9978961A0658CE00514112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB9978971A0658CE00514112 /* Build configuration list for PBXNativeTarget "Grand Central DispatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9978981A0658CE00514112 /* Debug */,
+				EB9978991A0658CE00514112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB99786D1A0658CD00514112 /* Project object */;
+}
